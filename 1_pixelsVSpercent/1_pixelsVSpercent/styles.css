@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    text-align: center;
+}
+
+.wrapper {
+    height: 95vh;
+    width: 95vw;
+    
+    overflow: hidden;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+.pixels {
+    border: 2px solid black;
+    border-radius: 2px;
+    
+    width: 600px;
+    height: 100px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.percent {
+    border: 2px solid black;
+    border-radius: 2px;
+    
+    width: 31.5%;
+    height: 10%;
+    font-size: 1.4em;
+    margin: 0.5%;
+}
+
+.percentmedia {
+    border: 2px solid black;
+    border-radius: 2px;
+    
+    width: 31.5%;
+    height: 10%;
+    font-size: 1.4em;
+    margin: 0.5%;
+}
+
+.vhvw {
+    border: 2px solid black;
+    border-radius: 2px;
+    
+    width: 25%;
+    height: 10%;
+    font-size: 1vw;
+}
+
+
+@media screen and (max-width: 990px) {
+    .percentmedia {
+        font-size: 1em;
+    }
+}

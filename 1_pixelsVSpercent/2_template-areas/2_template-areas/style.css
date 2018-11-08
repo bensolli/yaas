@@ -1,0 +1,32 @@
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  text-align: left;
+}
+
+.col-1{width:16.66%;}
+.col-2{width:33.32%;}
+.col-3{width:50%;}
+.col-4{width:66.64%;}
+.col-5{width:83.3%;}
+.col-6{width:100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 1%;
+  border: 2px solid black;
+
+}
+
+.row::after{
+  content: "";
+  clear: both;
+}
